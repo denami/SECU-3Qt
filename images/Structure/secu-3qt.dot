@@ -1,8 +1,0 @@
-graph G{
-
- Core -- UI;
- Core -- COMconnect;
- Core -- AutoConfig;
- UI -- AutoConfig;
-
-}
