@@ -1,17 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>TabWidget</class>
- <widget class="QTabWidget" name="TabWidget">
+ <class>SecuCentralTab</class>
+ <widget class="QTabWidget" name="SecuCentralTab">
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>663</width>
-    <height>472</height>
+    <width>654</width>
+    <height>443</height>
    </rect>
   </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
   <property name="windowTitle">
-   <string>TabWidget</string>
+   <string>SecuCentralTab</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
   </property>
   <property name="tabPosition">
    <enum>QTabWidget::South</enum>
