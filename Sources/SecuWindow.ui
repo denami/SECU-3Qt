@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SecuWindow</class>
+ <widget class="QMainWindow" name="SecuWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>678</width>
+    <height>491</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="SecuCentralTab">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>654</width>
+      <height>431</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="windowTitle">
+     <string>SecuCentralTab</string>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="tabPosition">
+     <enum>QTabWidget::South</enum>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="ParametersAndMonitor">
+     <attribute name="title">
+      <string>Параметры и монитор</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="FrimevareData">
+     <attribute name="title">
+      <string>Данные прошивки</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="CeckEngine">
+     <attribute name="title">
+      <string>Check Engine</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="KhnokSensor">
+     <attribute name="title">
+      <string>Настройка ДД</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="Player">
+     <attribute name="title">
+      <string>Проигрыватель</string>
+     </attribute>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="CentralMenubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>678</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="CentralStatusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
