@@ -13,7 +13,7 @@
   <property name="windowTitle">
    <string>Form</string>
   </property>
-  <widget class="QWidget" name="">
+  <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
      <x>10</x>
@@ -26,21 +26,21 @@
     <item>
      <layout class="QHBoxLayout" name="horizontalLayout">
       <item>
-       <widget class="QPushButton" name="pushButton">
+       <widget class="QPushButton" name="SetAll">
         <property name="text">
          <string>Установить все</string>
         </property>
        </widget>
       </item>
       <item>
-       <widget class="QPushButton" name="pushButton_2">
+       <widget class="QPushButton" name="ResetAll">
         <property name="text">
          <string>Сбросить все</string>
         </property>
        </widget>
       </item>
       <item>
-       <widget class="QCheckBox" name="checkBox_2">
+       <widget class="QCheckBox" name="ShowInertsError">
         <property name="text">
          <string>Показывать ошибки с инетрностью</string>
         </property>
@@ -54,7 +54,7 @@
     <item>
      <layout class="QHBoxLayout" name="horizontalLayout_2">
       <item>
-       <widget class="QPushButton" name="pushButton_3">
+       <widget class="QPushButton" name="ReadSavedErrors">
         <property name="text">
          <string>ПРОЧИТАТЬ сохраненые
 ошибки</string>
@@ -62,7 +62,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QPushButton" name="pushButton_4">
+       <widget class="QPushButton" name="WriteSavedErrors">
         <property name="text">
          <string>ЗАПИСАТЬ сохраненые
 ошибки</string>
@@ -70,7 +70,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QCheckBox" name="checkBox">
+       <widget class="QCheckBox" name="ReadErrorRealTime">
         <property name="text">
          <string>Считывать ошибки
 в реальном времени</string>
