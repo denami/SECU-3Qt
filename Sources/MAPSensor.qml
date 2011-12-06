@@ -7,7 +7,7 @@ Item {
 
     width: 175; height: 175
 
-    Image { x: 0; y: 0; source: "Images/MAPSensorBackground.PNG"
+    Image { x: 0; y: 0; width: 175; height: 161; fillMode: Image.PreserveAspectFit; source: "Images/rotation-v2.svg"
 
     Text {
         id: text2
